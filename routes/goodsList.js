@@ -1,10 +1,12 @@
 'use strict';
 var express = require('express');
+var Db = require('mongodb').Db;
+var Server = require('mongodb').Server;
 var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 var router = express.Router();
 
-var url = 'mongodb://localhost:27017/redData';
+var url = 'mongodb://112.144.208.7:9001/redData';
 
 global.dataCount = "";
 
@@ -48,7 +50,6 @@ router.get('/:id', function (req, res) {
 
         db.collection('redgoodsdetails').find({}, options).toArray(function (err, result) {
             assert.equal(err, null);
-            //console.log(result);
             res.render('goodsList', {
                 data: result,
                 dataCount: result.length
@@ -65,47 +66,17 @@ router.get('/:id', function (req, res) {
     });
 });
 
-
 router.get('/prddetail/:prdId', function (req, res, next) {
-
     var prdId = req.params.prdId;
-var aaa = {}
-    var redData__groupby_id__push__data___prdDetail = function (db, callback) {
-        db.collection('redgoods2').find({prd_id: prdId}).toArray(function (err, result) {
-            assert.equal(err, null);
-            aaa.data1 = result
-            callback(result);
-        });
-    };
-	var c = function (db, callback) {
-		db.collection('redgoodsdetails').find({"data.item.source_id": prdId}).toArray(function (err, result) {
-			assert.equal(err, null);
-			console.log(result[0].data.brand.id);
-			db.collection('red_post_brand_count_2016').find({brand_id : result[0].data.brand.id}).toArray(function (err, bbb) {
-			    if(err){console.log(err)}
-			    aaa.data2 = bbb
-				res.render('goodsListDetail', {
-					data: aaa
-				});
-                
-                db.close();
-			})
-			callback(result);
-		});
-	};
-    
-    
-    MongoClient.connect(url, function (err, db) {
-        assert.equal(null, err);
-        redData__groupby_id__push__data___prdDetail(db, function () {
-            //db.close();
-        });
-	    c(db, function () {
-		   
-	    });
+    var db = new Db('redData', new Server('112.144.208.7', 9001));
+    db.open(function(err, db) {
+        var collection = db.collection("redgoods2");
+        collection.find({prd_id : prdId}).toArray(function(err, item) {
+            if(err) console.log(err);
+            res.render('goodsListDetail',{ data : item});
+            db.close();
+        })
     });
-
-
 });
 
 
