@@ -4,7 +4,7 @@ var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 var router = express.Router();
 
-var url = 'mongodb://localhost:27017/redData';
+var url = 'mongodb://112.144.208.7:9001/redData';
 
 global.dataCount = "";
 

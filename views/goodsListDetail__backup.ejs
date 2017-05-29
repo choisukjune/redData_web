@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+    <div id="chartdiv"></div>
+    <style>
+    #chartdiv {
+        width	: 100%;
+        height	: 500px;
+    }
+    #chartdiv2 {
+        width	: 100%;
+        height	: 500px;
+    }
+
+</style>
+
+    <script type="text/javascript">
+        var org_data = <%-JSON.stringify(data.data1)%>
+
+        var data_set = []
+        var data = {}
+
+        for(var i = 0; i < org_data.length; i++) { %>
+
+        data = {
+	        date : new Date( org_data[ i ].d_scrapping.y + "-" + org_data[ i ].d_scrapping.m + "-" + org_data[ i ].d_scrapping.d + " " + org_data[ i ].d_scrapping.ho + ":" + org_data[ i ].d_scrapping.mi + ":" + org_data[ i ].d_scrapping.se )
+            , value : org_data[ i ].stock
+            , price : org_data[ i ].price
+        }
+            data_set.push(data);
+        data = {}
+        }
+
+        console.log(data_set)
+
+        //var chartData = generateChartData();
+        var chart = AmCharts.makeChart("chartdiv", {
+	        "type": "serial",
+	        "theme": "light",
+	        "marginRight": 80,
+	        "autoMarginOffset": 20,
+	        "marginTop": 7,
+	        "dataProvider": data_set,
+	        "valueAxes": [{
+		        "id":"v1",
+		        "axisColor": "#FF6600",
+		        "axisThickness": 2,
+		        "axisAlpha": 1,
+		        "position": "left"
+	        }, {
+		        "id":"v2",
+		        "axisColor": "#FCD202",
+		        "axisThickness": 2,
+		        "axisAlpha": 1,
+		        "position": "right"
+	        }],
+	        "mouseWheelZoomEnabled": true,
+	        "graphs": [{
+		        "valueAxis": "v1",
+		        "lineColor": "#FF6600",
+		        "bullet": "round",
+		        "bulletBorderThickness": 1,
+		        "hideBulletsCount": 30,
+		        "title": "red line",
+		        "valueField": "value",
+		        "fillAlphas": 0
+	        }, {
+		        "valueAxis": "v2",
+		        "lineColor": "#FCD202",
+		        "bullet": "square",
+		        "bulletBorderThickness": 1,
+		        "hideBulletsCount": 30,
+		        "title": "yellow line",
+		        "valueField": "price",
+		        "fillAlphas": 0
+	        }],
+	        "chartScrollbar": {
+		        "autoGridCount": true,
+		        "graph": "g1",
+		        "scrollbarHeight": 40
+	        },
+	        "chartCursor": {
+		        "limitToGraph":"g3"
+	        },
+	        "categoryField": "date",
+	        "categoryAxis": {
+		        "parseDates": true,
+		        "minPeriod": "ss",
+		        "axisColor": "#DADADA",
+		        "dashLength": 1,
+		        "minorGridEnabled": true
+	        },
+	        "export": {
+		        "enabled": true
+	        }
+        });
+        chart.addListener("rendered", zoomChart);
+        if(chart.zoomChart){
+	        chart.zoomChart();
+        }
+
+        function zoomChart(){
+	        chart.zoomToIndexes(Math.round(chart.dataProvider.length * 0.4), Math.round(chart.dataProvider.length * 0.55));
+        }
+    </script>
+
+
+    <script type="text/javascript">
+		var org_data1 = <%-JSON.stringify(data.data2)%>
+		console.log(org_data1.length)
+		console.log(org_data1)
+		var data_set1 = []
+		var data1 = {}
+
+		for(var i = 0; i < org_data1.length; i++) { %>
+
+			data1 = {
+				date : new Date( org_data1[ i ].d_post_reg.y + "-" + org_data1[ i ].d_post_reg.m + "-" + org_data1[ i ].d_post_reg.d )
+				, value : org_data1[ i ].count
+			}
+			data_set1.push(data1);
+			data1 = {}
+		}
+
+		console.log(data_set)
+
+		//var chartData = generateChartData();
+		var chart = AmCharts.makeChart("chartdiv2", {
+			"type": "serial",
+			"theme": "light",
+			"marginRight": 80,
+			"autoMarginOffset": 20,
+			"marginTop": 7,
+			"dataProvider": data_set1,
+			"valueAxes": [{
+				"id":"v1",
+				"axisColor": "#FF6600",
+				"axisThickness": 2,
+				"axisAlpha": 1,
+				"position": "left"
+			}],
+			"mouseWheelZoomEnabled": true,
+			"graphs": [{
+				"valueAxis": "v1",
+				"lineColor": "#FF6600",
+				"bullet": "round",
+				"bulletBorderThickness": 1,
+				"hideBulletsCount": 30,
+				"title": "red line",
+				"valueField": "value",
+				"fillAlphas": 0
+			}],
+			"chartScrollbar": {
+				"autoGridCount": true,
+				"graph": "g1",
+				"scrollbarHeight": 40
+			},
+			"chartCursor": {
+				"limitToGraph":"g3"
+			},
+			"categoryField": "date",
+			"categoryAxis": {
+				"parseDates": true,
+				"minPeriod": "ss",
+				"axisColor": "#DADADA",
+				"dashLength": 1,
+				"minorGridEnabled": true
+			},
+			"export": {
+				"enabled": true
+			}
+		});
+		chart.addListener("rendered", zoomChart);
+		if(chart.zoomChart){
+			chart.zoomChart();
+		}
+
+		function zoomChart(){
+			chart.zoomToIndexes(Math.round(chart.dataProvider.length * 0.4), Math.round(chart.dataProvider.length * 0.55));
+		}
+    </script>
+
+
+
+
+</head>
+
+<body>
+
+
+
+<div id="chartdiv2"></div>
+</body>
+
+</html>
