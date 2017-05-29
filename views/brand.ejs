@@ -1,0 +1,51 @@
+<style>
+    li{
+        list-style: none;
+    }
+    .float_left {
+        float: left;
+    }
+    .wrap{
+        width: 100%;
+    }
+    .w100{
+     width: 100px;
+    }
+    .w200{
+        width: 200px;
+    }
+    .h50{
+        height: 50px;
+    }
+    .h200{
+        line-height: 150px;
+    }
+    img{
+        max-width: 180px;
+        max-height: 130px;
+    }
+    li{
+        line-height: 15px;
+    }
+</style>
+<link rel="stylesheet" href="/css/style.css">
+<div class="wrap">
+    <% for(var i = 0; i < data.length; i++){ %>
+    <div class="float_left w200" style="height: 300px; padding-right: 10px;">
+        <ul>
+            <%- /*JSON.stringify(data[i])*/ %>
+            <li class="h200" style="height: 150px; padding: 10px;">
+                <%if(data[i].image == 'http://s4.xiaohongshu.com'){%>
+            sorry,no-image
+                <%}else{%>
+            <img src="<%-data[i].image%>">
+                <%}%>
+
+            </li>
+            <li><a href="/goodsList/brand/<%- data[i].id %>"><%- data[i].id %></a></li>
+            <li><%- data[i].ename %></li>
+            <li><%- data[i].name %></li>
+        </ul>
+    </div>
+    <% } %>
+</div>

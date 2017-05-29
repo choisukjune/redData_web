@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0460488-08a2-4dbe-8f73-de1eb02c7644" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="redData_web" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goodsList.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/goodsList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postsList.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/postsList.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="24" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brand.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/brand.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="44" column="32" lean-forward="false" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postsList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/postsList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1919">
+              <caret line="101" column="11" lean-forward="false" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;script&gt; var chart = AmCharts.makeChart(&quot;chartdiv&quot;, {     &quot;type&quot;: &quot;serial&quot;,     &quot;theme&quot;: &quot;light&quot;,     &quot;marginRight&quot;: 40,     &quot;marginLeft&quot;: 40,     &quot;autoMarginOffset&quot;: 20,     &quot;mouseWheelZoomEnabled&quot;:true,     &quot;dataDateFormat&quot;: &quot;YYYY-MM-DD&quot;,     &quot;valueAxes&quot;: [{         &quot;id&quot;: &quot;v1&quot;,         &quot;axisAlpha&quot;: 0,         &quot;position&quot;: &quot;left&quot;,         &quot;ignoreAxisWidth&quot;:true     }],     &quot;balloon&quot;: {         &quot;borderThickness&quot;: 1,         &quot;shadowAlpha&quot;: 0     },     &quot;graphs&quot;: [{         &quot;id&quot;: &quot;g1&quot;,         &quot;balloon&quot;:{           &quot;drop&quot;:true,           &quot;adjustBorderColor&quot;:false,           &quot;color&quot;:&quot;#ffffff&quot;         },         &quot;bullet&quot;: &quot;round&quot;,         &quot;bulletBorderAlpha&quot;: 1,         &quot;bulletColor&quot;: &quot;#FFFFFF&quot;,         &quot;bulletSize&quot;: 5,         &quot;hideBulletsCount&quot;: 50,         &quot;lineThickness&quot;: 2,         &quot;title&quot;: &quot;red line&quot;,         &quot;useLineColorForBulletBorder&quot;: true,         &quot;valueField&quot;: &quot;value&quot;,         &quot;balloonText&quot;: &quot;&lt;span style='font-size:18px;'&gt;[[value]]&lt;/span&gt;&quot;     }],     &quot;chartScrollbar&quot;: {         &quot;graph&quot;: &quot;g1&quot;,         &quot;oppositeAxis&quot;:false,         &quot;offset&quot;:30,         &quot;scrollbarHeight&quot;: 80,         &quot;backgroundAlpha&quot;: 0,         &quot;selectedBackgroundAlpha&quot;: 0.1,         &quot;selectedBackgroundColor&quot;: &quot;#888888&quot;,         &quot;graphFillAlpha&quot;: 0,         &quot;graphLineAlpha&quot;: 0.5,         &quot;selectedGraphFillAlpha&quot;: 0,         &quot;selectedGraphLineAlpha&quot;: 1,         &quot;autoGridCount&quot;:true,         &quot;color&quot;:&quot;#AAAAAA&quot;     },     &quot;chartCursor&quot;: {         &quot;pan&quot;: true,         &quot;valueLineEnabled&quot;: true,         &quot;valueLineBalloonEnabled&quot;: true,         &quot;cursorAlpha&quot;:1,         &quot;cursorColor&quot;:&quot;#258cbb&quot;,         &quot;limitToGraph&quot;:&quot;g1&quot;,         &quot;valueLineAlpha&quot;:0.2,         &quot;valueZoomable&quot;:true     },     &quot;valueScrollbar&quot;:{       &quot;oppositeAxis&quot;:false,       &quot;offset&quot;:50,       &quot;scrollbarHeight&quot;:10     },     &quot;categoryField&quot;: &quot;date&quot;,     &quot;categoryAxis&quot;: {         &quot;parseDates&quot;: true,         &quot;dashLength&quot;: 1,         &quot;minorGridEnabled&quot;: true     },     &quot;export&quot;: {         &quot;enabled&quot;: true     },     &quot;dataProvider&quot;: [{         &quot;date&quot;: &quot;2012-07-27&quot;,         &quot;value&quot;: 13     }, {         &quot;date&quot;: &quot;2012-07-28&quot;,         &quot;value&quot;: 11     }, {         &quot;date&quot;: &quot;2012-07-29&quot;,         &quot;value&quot;: 15     }, {         &quot;date&quot;: &quot;2012-07-30&quot;,         &quot;value&quot;: 16     }, {         &quot;date&quot;: &quot;2012-07-31&quot;,         &quot;value&quot;: 18     }, {         &quot;date&quot;: &quot;2012-08-01&quot;,         &quot;value&quot;: 13     }, {         &quot;date&quot;: &quot;2012-08-02&quot;,         &quot;value&quot;: 22     }, {         &quot;date&quot;: &quot;2012-08-03&quot;,         &quot;value&quot;: 23     }, {         &quot;date&quot;: &quot;2012-08-04&quot;,         &quot;value&quot;: 20     }, {         &quot;date&quot;: &quot;2012-08-05&quot;,         &quot;value&quot;: 17     }, {         &quot;date&quot;: &quot;2012-08-06&quot;,         &quot;value&quot;: 16     }, {         &quot;date&quot;: &quot;2012-08-07&quot;,         &quot;value&quot;: 18     }, {         &quot;date&quot;: &quot;2012-08-08&quot;,         &quot;value&quot;: 21     }, {         &quot;date&quot;: &quot;2012-08-09&quot;,         &quot;value&quot;: 26     }, {         &quot;date&quot;: &quot;2012-08-10&quot;,         &quot;value&quot;: 24     }, {         &quot;date&quot;: &quot;2012-08-11&quot;,         &quot;value&quot;: 29     }, {         &quot;date&quot;: &quot;2012-08-12&quot;,         &quot;value&quot;: 32     }, {         &quot;date&quot;: &quot;2012-08-13&quot;,         &quot;value&quot;: 18     }, {         &quot;date&quot;: &quot;2012-08-14&quot;,         &quot;value&quot;: 24     }, {         &quot;date&quot;: &quot;2012-08-15&quot;,         &quot;value&quot;: 22     }, {         &quot;date&quot;: &quot;2012-08-16&quot;,         &quot;value&quot;: 18     }, {         &quot;date&quot;: &quot;2012-08-17&quot;,         &quot;value&quot;: 19     }, {         &quot;date&quot;: &quot;2012-08-18&quot;,         &quot;value&quot;: 14     }, {         &quot;date&quot;: &quot;2012-08-19&quot;,         &quot;value&quot;: 15     }, {         &quot;date&quot;: &quot;2012-08-20&quot;,         &quot;value&quot;: 12     }, {         &quot;date&quot;: &quot;2012-08-21&quot;,         &quot;value&quot;: 8     }, {         &quot;date&quot;: &quot;2012-08-22&quot;,         &quot;value&quot;: 9     }, {         &quot;date&quot;: &quot;2012-08-23&quot;,         &quot;value&quot;: 8     }, {         &quot;date&quot;: &quot;2012-08-24&quot;,         &quot;value&quot;: 7     }, {         &quot;date&quot;: &quot;2012-08-25&quot;,         &quot;value&quot;: 5     }, {         &quot;date&quot;: &quot;2012-08-26&quot;,         &quot;value&quot;: 11     }, {         &quot;date&quot;: &quot;2012-08-27&quot;,         &quot;value&quot;: 13     }, {         &quot;date&quot;: &quot;2012-08-28&quot;,         &quot;value&quot;: 18     }, {         &quot;date&quot;: &quot;2012-08-29&quot;,         &quot;value&quot;: 20     }, {         &quot;date&quot;: &quot;2012-08-30&quot;,         &quot;value&quot;: 29     }, {         &quot;date&quot;: &quot;2012-08-31&quot;,         &quot;value&quot;: 33     }, {         &quot;date&quot;: &quot;2012-09-01&quot;,         &quot;value&quot;: 42     }, {         &quot;date&quot;: &quot;2012-09-02&quot;,         &quot;value&quot;: 35     }, {         &quot;date&quot;: &quot;2012-09-03&quot;,         &quot;value&quot;: 31     }, {         &quot;date&quot;: &quot;2012-09-04&quot;,         &quot;value&quot;: 47     }, {         &quot;date&quot;: &quot;2012-09-05&quot;,         &quot;value&quot;: 52     }, {         &quot;date&quot;: &quot;2012-09-06&quot;,         &quot;value&quot;: 46     }, {         &quot;date&quot;: &quot;2012-09-07&quot;,         &quot;value&quot;: 41     }, {         &quot;date&quot;: &quot;2012-09-08&quot;,         &quot;value&quot;: 43     }, {         &quot;date&quot;: &quot;2012-09-09&quot;,         &quot;value&quot;: 40     }, {         &quot;date&quot;: &quot;2012-09-10&quot;,         &quot;value&quot;: 39     }, {         &quot;date&quot;: &quot;2012-09-11&quot;,         &quot;value&quot;: 34     }, {         &quot;date&quot;: &quot;2012-09-12&quot;,         &quot;value&quot;: 29     }, {         &quot;date&quot;: &quot;2012-09-13&quot;,         &quot;value&quot;: 34     }, {         &quot;date&quot;: &quot;2012-09-14&quot;,         &quot;value&quot;: 37     }, {         &quot;date&quot;: &quot;2012-09-15&quot;,         &quot;value&quot;: 42     }, {         &quot;date&quot;: &quot;2012-09-16&quot;,         &quot;value&quot;: 49     }, {         &quot;date&quot;: &quot;2012-09-17&quot;,         &quot;value&quot;: 46     }, {         &quot;date&quot;: &quot;2012-09-18&quot;,         &quot;value&quot;: 47     }, {         &quot;date&quot;: &quot;2012-09-19&quot;,         &quot;value&quot;: 55     }, {         &quot;date&quot;: &quot;2012-09-20&quot;,         &quot;value&quot;: 59     }, {         &quot;date&quot;: &quot;2012-09-21&quot;,         &quot;value&quot;: 58     }, {         &quot;date&quot;: &quot;2012-09-22&quot;,         &quot;value&quot;: 57     }, {         &quot;date&quot;: &quot;2012-09-23&quot;,         &quot;value&quot;: 61     }, {         &quot;date&quot;: &quot;2012-09-24&quot;,         &quot;value&quot;: 59     }, {         &quot;date&quot;: &quot;2012-09-25&quot;,         &quot;value&quot;: 67     }, {         &quot;date&quot;: &quot;2012-09-26&quot;,         &quot;value&quot;: 65     }, {         &quot;date&quot;: &quot;2012-09-27&quot;,         &quot;value&quot;: 61     }, {         &quot;date&quot;: &quot;2012-09-28&quot;,         &quot;value&quot;: 66     }, {         &quot;date&quot;: &quot;2012-09-29&quot;,         &quot;value&quot;: 69     }, {         &quot;date&quot;: &quot;2012-09-30&quot;,         &quot;value&quot;: 71     }, {         &quot;date&quot;: &quot;2012-10-01&quot;,         &quot;value&quot;: 67     }, {         &quot;date&quot;: &quot;2012-10-02&quot;,         &quot;value&quot;: 63     }, {         &quot;date&quot;: &quot;2012-10-03&quot;,         &quot;value&quot;: 46     }, {         &quot;date&quot;: &quot;2012-10-04&quot;,         &quot;value&quot;: 32     }, {         &quot;date&quot;: &quot;2012-10-05&quot;,         &quot;value&quot;: 21     }, {         &quot;date&quot;: &quot;2012-10-06&quot;,         &quot;value&quot;: 18     }, {         &quot;date&quot;: &quot;2012-10-07&quot;,         &quot;value&quot;: 21     }, {         &quot;date&quot;: &quot;2012-10-08&quot;,         &quot;value&quot;: 28     }, {         &quot;date&quot;: &quot;2012-10-09&quot;,         &quot;value&quot;: 27     }, {         &quot;date&quot;: &quot;2012-10-10&quot;,         &quot;value&quot;: 36     }, {         &quot;date&quot;: &quot;2012-10-11&quot;,         &quot;value&quot;: 33     }, {         &quot;date&quot;: &quot;2012-10-12&quot;,         &quot;value&quot;: 31     }, {         &quot;date&quot;: &quot;2012-10-13&quot;,         &quot;value&quot;: 30     }, {         &quot;date&quot;: &quot;2012-10-14&quot;,         &quot;value&quot;: 34     }, {         &quot;date&quot;: &quot;2012-10-15&quot;,         &quot;value&quot;: 38     }, {         &quot;date&quot;: &quot;2012-10-16&quot;,         &quot;value&quot;: 37     }, {         &quot;date&quot;: &quot;2012-10-17&quot;,         &quot;value&quot;: 44     }, {         &quot;date&quot;: &quot;2012-10-18&quot;,         &quot;value&quot;: 49     }, {         &quot;date&quot;: &quot;2012-10-19&quot;,         &quot;value&quot;: 53     }, {         &quot;date&quot;: &quot;2012-10-20&quot;,         &quot;value&quot;: 57     }, {         &quot;date&quot;: &quot;2012-10-21&quot;,         &quot;value&quot;: 60     }, {         &quot;date&quot;: &quot;2012-10-22&quot;,         &quot;value&quot;: 61     }, {         &quot;date&quot;: &quot;2012-10-23&quot;,         &quot;value&quot;: 69     }, {         &quot;date&quot;: &quot;2012-10-24&quot;,         &quot;value&quot;: 67     }, {         &quot;date&quot;: &quot;2012-10-25&quot;,         &quot;value&quot;: 72     }, {         &quot;date&quot;: &quot;2012-10-26&quot;,         &quot;value&quot;: 77     }, {         &quot;date&quot;: &quot;2012-10-27&quot;,         &quot;value&quot;: 75     }, {         &quot;date&quot;: &quot;2012-10-28&quot;,         &quot;value&quot;: 70     }, {         &quot;date&quot;: &quot;2012-10-29&quot;,         &quot;value&quot;: 72     }, {         &quot;date&quot;: &quot;2012-10-30&quot;,         &quot;value&quot;: 70     }, {         &quot;date&quot;: &quot;2012-10-31&quot;,         &quot;value&quot;: 72     }, {         &quot;date&quot;: &quot;2012-11-01&quot;,         &quot;value&quot;: 73     }, {         &quot;date&quot;: &quot;2012-11-02&quot;,         &quot;value&quot;: 67     }, {         &quot;date&quot;: &quot;2012-11-03&quot;,         &quot;value&quot;: 68     }, {         &quot;date&quot;: &quot;2012-11-04&quot;,         &quot;value&quot;: 65     }, {         &quot;date&quot;: &quot;2012-11-05&quot;,         &quot;value&quot;: 71     }, {         &quot;date&quot;: &quot;2012-11-06&quot;,         &quot;value&quot;: 75     }, {         &quot;date&quot;: &quot;2012-11-07&quot;,         &quot;value&quot;: 74     }, {         &quot;date&quot;: &quot;2012-11-08&quot;,         &quot;value&quot;: 71     }, {         &quot;date&quot;: &quot;2012-11-09&quot;,         &quot;value&quot;: 76     }, {         &quot;date&quot;: &quot;2012-11-10&quot;,         &quot;value&quot;: 77     }, {         &quot;date&quot;: &quot;2012-11-11&quot;,         &quot;value&quot;: 81     }, {         &quot;date&quot;: &quot;2012-11-12&quot;,         &quot;value&quot;: 83     }, {         &quot;date&quot;: &quot;2012-11-13&quot;,         &quot;value&quot;: 80     }, {         &quot;date&quot;: &quot;2012-11-14&quot;,         &quot;value&quot;: 81     }, {         &quot;date&quot;: &quot;2012-11-15&quot;,         &quot;value&quot;: 87     }, {         &quot;date&quot;: &quot;2012-11-16&quot;,         &quot;value&quot;: 82     }, {         &quot;date&quot;: &quot;2012-11-17&quot;,         &quot;value&quot;: 86     }, {         &quot;date&quot;: &quot;2012-11-18&quot;,         &quot;value&quot;: 80     }, {         &quot;date&quot;: &quot;2012-11-19&quot;,         &quot;value&quot;: 87     }, {         &quot;date&quot;: &quot;2012-11-20&quot;,         &quot;value&quot;: 83     }, {         &quot;date&quot;: &quot;2012-11-21&quot;,         &quot;value&quot;: 85     }, {         &quot;date&quot;: &quot;2012-11-22&quot;,         &quot;value&quot;: 84     }, {         &quot;date&quot;: &quot;2012-11-23&quot;,         &quot;value&quot;: 82     }, {         &quot;date&quot;: &quot;2012-11-24&quot;,         &quot;value&quot;: 73     }, {         &quot;date&quot;: &quot;2012-11-25&quot;,         &quot;value&quot;: 71     }, {         &quot;date&quot;: &quot;2012-11-26&quot;,         &quot;value&quot;: 75     }, {         &quot;date&quot;: &quot;2012-11-27&quot;,         &quot;value&quot;: 79     }, {         &quot;date&quot;: &quot;2012-11-28&quot;,         &quot;value&quot;: 70     }, {         &quot;date&quot;: &quot;2012-11-29&quot;,         &quot;value&quot;: 73     }, {         &quot;date&quot;: &quot;2012-11-30&quot;,         &quot;value&quot;: 61     }, {         &quot;date&quot;: &quot;2012-12-01&quot;,         &quot;value&quot;: 62     }, {         &quot;date&quot;: &quot;2012-12-02&quot;,         &quot;value&quot;: 66     }, {         &quot;date&quot;: &quot;2012-12-03&quot;,         &quot;value&quot;: 65     }, {         &quot;date&quot;: &quot;2012-12-04&quot;,         &quot;value&quot;: 73     }, {         &quot;date&quot;: &quot;2012-12-05&quot;,         &quot;value&quot;: 79     }, {         &quot;date&quot;: &quot;2012-12-06&quot;,         &quot;value&quot;: 78     }, {         &quot;date&quot;: &quot;2012-12-07&quot;,         &quot;value&quot;: 78     }, {         &quot;date&quot;: &quot;2012-12-08&quot;,         &quot;value&quot;: 78     }, {         &quot;date&quot;: &quot;2012-12-09&quot;,         &quot;value&quot;: 74     }, {         &quot;date&quot;: &quot;2012-12-10&quot;,         &quot;value&quot;: 73     }, {         &quot;date&quot;: &quot;2012-12-11&quot;,         &quot;value&quot;: 75     }, {         &quot;date&quot;: &quot;2012-12-12&quot;,         &quot;value&quot;: 70     }, {         &quot;date&quot;: &quot;2012-12-13&quot;,         &quot;value&quot;: 77     }, {         &quot;date&quot;: &quot;2012-12-14&quot;,         &quot;value&quot;: 67     }, {         &quot;date&quot;: &quot;2012-12-15&quot;,         &quot;value&quot;: 62     }, {         &quot;date&quot;: &quot;2012-12-16&quot;,         &quot;value&quot;: 64     }, {         &quot;date&quot;: &quot;2012-12-17&quot;,         &quot;value&quot;: 61     }, {         &quot;date&quot;: &quot;2012-12-18&quot;,         &quot;value&quot;: 59     }, {         &quot;date&quot;: &quot;2012-12-19&quot;,         &quot;value&quot;: 53     }, {         &quot;date&quot;: &quot;2012-12-20&quot;,         &quot;value&quot;: 54     }, {         &quot;date&quot;: &quot;2012-12-21&quot;,         &quot;value&quot;: 56     }, {         &quot;date&quot;: &quot;2012-12-22&quot;,         &quot;value&quot;: 59     }, {         &quot;date&quot;: &quot;2012-12-23&quot;,         &quot;value&quot;: 58     }, {         &quot;date&quot;: &quot;2012-12-24&quot;,         &quot;value&quot;: 55     }, {         &quot;date&quot;: &quot;2012-12-25&quot;,         &quot;value&quot;: 52     }, {         &quot;date&quot;: &quot;2012-12-26&quot;,         &quot;value&quot;: 54     }, {         &quot;date&quot;: &quot;2012-12-27&quot;,         &quot;value&quot;: 50     }, {         &quot;date&quot;: &quot;2012-12-28&quot;,         &quot;value&quot;: 50     }, {         &quot;date&quot;: &quot;2012-12-29&quot;,         &quot;value&quot;: 51     }, {         &quot;date&quot;: &quot;2012-12-30&quot;,         &quot;value&quot;: 52     }, {         &quot;date&quot;: &quot;2012-12-31&quot;,         &quot;value&quot;: 58     }, {         &quot;date&quot;: &quot;2013-01-01&quot;,         &quot;value&quot;: 60     }, {         &quot;date&quot;: &quot;2013-01-02&quot;,         &quot;value&quot;: 67     }, {         &quot;date&quot;: &quot;2013-01-03&quot;,         &quot;value&quot;: 64     }, {         &quot;date&quot;: &quot;2013-01-04&quot;,         &quot;value&quot;: 66     }, {         &quot;date&quot;: &quot;2013-01-05&quot;,         &quot;value&quot;: 60     }, {         &quot;date&quot;: &quot;2013-01-06&quot;,         &quot;value&quot;: 63     }, {         &quot;date&quot;: &quot;2013-01-07&quot;,         &quot;value&quot;: 61     }, {         &quot;date&quot;: &quot;2013-01-08&quot;,         &quot;value&quot;: 60     }, {         &quot;date&quot;: &quot;2013-01-09&quot;,         &quot;value&quot;: 65     }, {         &quot;date&quot;: &quot;2013-01-10&quot;,         &quot;value&quot;: 75     }, {         &quot;date&quot;: &quot;2013-01-11&quot;,         &quot;value&quot;: 77     }, {         &quot;date&quot;: &quot;2013-01-12&quot;,         &quot;value&quot;: 78     }, {         &quot;date&quot;: &quot;2013-01-13&quot;,         &quot;value&quot;: 70     }, {         &quot;date&quot;: &quot;2013-01-14&quot;,         &quot;value&quot;: 70     }, {         &quot;date&quot;: &quot;2013-01-15&quot;,         &quot;value&quot;: 73     }, {         &quot;date&quot;: &quot;2013-01-16&quot;,         &quot;value&quot;: 71     }, {         &quot;date&quot;: &quot;2013-01-17&quot;,         &quot;value&quot;: 74     }, {         &quot;date&quot;: &quot;2013-01-18&quot;,         &quot;value&quot;: 78     }, {         &quot;date&quot;: &quot;2013-01-19&quot;,         &quot;value&quot;: 85     }, {         &quot;date&quot;: &quot;2013-01-20&quot;,         &quot;value&quot;: 82     }, {         &quot;date&quot;: &quot;2013-01-21&quot;,         &quot;value&quot;: 83     }, {         &quot;date&quot;: &quot;2013-01-22&quot;,         &quot;value&quot;: 88     }, {         &quot;date&quot;: &quot;2013-01-23&quot;,         &quot;value&quot;: 85     }, {         &quot;date&quot;: &quot;2013-01-24&quot;,         &quot;value&quot;: 85     }, {         &quot;date&quot;: &quot;2013-01-25&quot;,         &quot;value&quot;: 80     }, {         &quot;date&quot;: &quot;2013-01-26&quot;,         &quot;value&quot;: 87     }, {         &quot;date&quot;: &quot;2013-01-27&quot;,         &quot;value&quot;: 84     }, {         &quot;date&quot;: &quot;2013-01-28&quot;,         &quot;value&quot;: 83     }, {         &quot;date&quot;: &quot;2013-01-29&quot;,         &quot;value&quot;: 84     }, {         &quot;date&quot;: &quot;2013-01-30&quot;,         &quot;value&quot;: 81     }] });  chart.addListener(&quot;rendered&quot;, zoomChart);  zoomChart();  function zoomChart() {     chart.zoomToIndexes(chart.dataProvider.length - 40, chart.dataProvider.length - 1); } &lt;/script&gt;</find>
+      <find>chartdiv</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/routes/postsList.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/routes/brand.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/views/goodsList.ejs" />
+        <option value="$PROJECT_DIR$/views/brand.ejs" />
+        <option value="$PROJECT_DIR$/views/postsList.ejs" />
+        <option value="$PROJECT_DIR$/routes/goodsList.js" />
+        <option value="$PROJECT_DIR$/views/goodsListDetail.ejs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redData_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redData_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redData_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redData_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redData_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redData_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redData_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redData_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redData_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redData_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RunManager" selected="Node.js.Unnamed">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
+      <profiling v8-profiler-path="" />
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling v8-profiler-path="" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.Unnamed" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0460488-08a2-4dbe-8f73-de1eb02c7644" name="Default" comment="" />
+      <created>1481345277853</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1481345277853</updated>
+      <workItem from="1481345281110" duration="18175000" />
+      <workItem from="1482045497768" duration="18940000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="37115000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.6192946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="968" y="30" width="944" height="1012" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3254818" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33713692" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229716" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/goodsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/postsList.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/brand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/postsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="101" column="11" lean-forward="true" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/brand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="44" column="32" lean-forward="false" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/postsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="101" column="11" lean-forward="false" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/goodsList.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="69" column="27" lean-forward="false" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/brand.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/postsList.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="24" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/goodsListDetail.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="113" column="35" lean-forward="true" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/goodsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
